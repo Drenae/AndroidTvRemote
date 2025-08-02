@@ -1,0 +1,14 @@
+<!-- Dans res/values/themes.xml -->
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Thème de base de l'application. -->
+    <style name="Theme.Telecommande" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Personnalisations du thème principal. -->
+        <!-- Exemple : <item name="colorPrimary">@color/purple_500</item> -->
+    </style>
+
+    <!-- Ou si vous n'utilisez pas l'ActionBar par défaut et que vous en mettez une personnalisée -->
+    <style name="Theme.Telecommande.NoActionBar" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- <item name="windowActionBar">false</item> -->
+        <!-- <item name="windowNoTitle">true</item> -->
+    </style>
+</resources>
